@@ -46,7 +46,7 @@ function getHealthResponse(userMessage) {
         return healthResponses.exercise[Math.floor(Math.random() * healthResponses.exercise.length)];
     }
 
-    if (message.includes('food') || message.includes('eat') || message.includes('diet') ||
+     if (message.includes('food') || message.includes('eat') || message.includes('diet') ||
         message.includes('nutrition') || message.includes('meal') || message.includes('healthy eating')) {
         return healthResponses.nutrition[Math.floor(Math.random() * healthResponses.nutrition.length)];
     }
